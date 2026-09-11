@@ -1,14 +1,16 @@
-import Login, { Profile, Post } from './UserComponents'
+import Login, { Profile, Post } from './components/UserComponents'
 import './App.css'
-import Call from './FunctionCall'
+import Call from './components/FunctionCall'
+import State from './components/State'
 
 function App() {
   return (
     <>
-      <Login />
+      {/* <Login />
       <Post />
       <Profile />
-      <Call/>
+      <Call/> */}
+      <State/>
     </>
   )
 }
