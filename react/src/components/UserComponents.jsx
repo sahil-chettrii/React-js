@@ -1,3 +1,5 @@
+import { Component } from "react"
+
 function Login (){
     return (
         <div>
@@ -22,3 +24,4 @@ function Login (){
     )
 }
 export default Login
+
