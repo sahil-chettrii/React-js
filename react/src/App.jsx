@@ -3,6 +3,7 @@ import './App.css'
 import Call from './components/FunctionCall'
 import State from './components/State'
 import Toggle from './components/Toggle'
+import MultipleConditions from './components/MultipleConditions'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Call/> */}
       {/* <State/> */}
       {/* <Toggle/> */}
-      
+      <MultipleConditions/>
 
     </>
   )
