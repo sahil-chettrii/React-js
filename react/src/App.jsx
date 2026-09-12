@@ -7,6 +7,7 @@ import MultipleConditions from './components/MultipleConditions'
 import Props from './components/Props'
 import User from './components/User'
 import Wrapper from './components/Wrapper'
+import OnChangEvent from './components/OnChangeEvent'
 
 function App() {
 
@@ -23,13 +24,16 @@ function App() {
           {/* <User  name ="Sahil"/>
           <User  name ="Priyanka"/>
           <User/> */}
-
+{/* 
         <Wrapper><h1> hi React devs</h1>
            </Wrapper>
 
 
   <Wrapper><h1> is react is best</h1>
-           </Wrapper>
+           </Wrapper> */}
+
+
+           <OnChangEvent/>
     </>
   )
 }
