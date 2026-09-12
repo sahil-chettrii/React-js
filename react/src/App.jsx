@@ -2,6 +2,7 @@ import Login, { Profile, Post } from './components/UserComponents'
 import './App.css'
 import Call from './components/FunctionCall'
 import State from './components/State'
+import Toggle from './components/Toggle'
 
 function App() {
   return (
@@ -10,7 +11,10 @@ function App() {
       <Post />
       <Profile />
       <Call/> */}
-      <State/>
+      {/* <State/> */}
+      {/* <Toggle/> */}
+      
+
     </>
   )
 }
